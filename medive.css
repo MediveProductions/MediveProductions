@@ -1,0 +1,36 @@
+body {
+  width: auto;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(back.png);
+}
+.logo, .ylogo, .medive, .traco, .traco2 {
+  text-align: center;
+  margin: auto;
+}
+.logo {
+  width: 100%;
+}
+.ylogo, .traco, .traco2 {
+  width: 50%;
+}
+.medive {
+  width: 89%;
+}
+.logo, .medive{
+  max-width: 100%
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.logo:hover, .medive:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.ylogo:hover {
+  filter: invert(100%);
+}
