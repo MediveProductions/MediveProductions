@@ -1,36 +1,33 @@
 body {
-  width: auto;
+  background: #001987;
   margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: url(back.png);
 }
-.logo, .ylogo, .medive, .traco, .traco2 {
+.plogo, .cedivelogo,
+.cedive1, .cedive2, .cedive3,
+.cediveupdate1, .cediveupdate2, .cediveupdate3,
+.d04062020 {
   text-align: center;
   margin: auto;
 }
-.logo {
-  width: 100%;
+.plogo, .cedivelogo,
+.cedive1, .cedive2, .cedive3,
+.d04062020 {
+  padding-top: 20px;
 }
-.ylogo, .traco, .traco2 {
-  width: 50%;
+.cediveupdate1, .cediveupdate2, .cediveupdate3 {
+  padding-top: 10px;
 }
-.medive {
-  width: 89%;
+.cedive1 {
+  padding-bottom: 20px;
 }
-.logo, .medive{
+.plogo, .cedivelogo {
   max-width: 100%
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.logo:hover, .medive:hover{
+.plogo:hover, .cedivelogo:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-.ylogo:hover {
-  filter: invert(100%);
 }
