@@ -1,0 +1,33 @@
+body {
+  background: #001987;
+  margin: auto;
+}
+.plogo, .cedivelogo,
+.cedive1, .cedive2, .cedive3,
+.cediveupdate1, .cediveupdate2, .cediveupdate3,
+.d04062020 {
+  text-align: center;
+  margin: auto;
+}
+.plogo, .cedivelogo,
+.cedive1, .cedive2, .cedive3,
+.d04062020 {
+  padding-top: 20px;
+}
+.cediveupdate1, .cediveupdate2, .cediveupdate3 {
+  padding-top: 10px;
+}
+.cedive1 {
+  padding-bottom: 20px;
+}
+.plogo, .cedivelogo {
+  max-width: 100%
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.plogo:hover, .cedivelogo:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
