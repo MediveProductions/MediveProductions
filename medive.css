@@ -2,7 +2,7 @@ body {
   background: #001987;
   margin: auto;
 }
-.plogo, .cedivelogo, .mediveproductionsinfo,
+.plogo, .cedivelogo,
 .cedive1, .cedive2, .cedive3, .cedive4, .cedive5, .cedive6, .cedive7,
 .cediveupdate1, .cediveupdate2, .cediveupdate3, .cediveupdate4, .cediveupdate5,
 .cediveupdate6, .cediveupdate7,
@@ -11,7 +11,11 @@ body {
   text-align: center;
   margin: auto;
 }
-.plogo, .cedivelogo, .mediveproductionsinfo,
+.cediveinfo {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.plogo, .cedivelogo, .cediveinfo,
 .cedive1, .cedive2, .cedive3, .cedive4, .cedive5, .cedive6, .cedive7,
 .cedivenew,
 .d04062020, .d08062020, .d09062020 {
@@ -24,15 +28,4 @@ body {
 }
 .cedive1 {
   padding-bottom: 20px;
-}
-.plogo, .cedivelogo {
-  max-width: 100%
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.plogo:hover, .cedivelogo:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
